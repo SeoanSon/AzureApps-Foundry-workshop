@@ -1,4 +1,4 @@
-# 4. Container Apps에 챗봇 배포
+# Container Apps에 챗봇 배포
 
 Microsoft Foundry에서 개발한 에이전트를 동일하게 Container Apps에 배포해보도록 하겠습니다. 프로젝트에 구성된 OpenAI 엔드포인트와 AI Search의 엔드포인트를 활용하는 챗봇 UI를 포함한 컨테이너 이미지를 Container Apps에 배포합니다.
 
