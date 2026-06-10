@@ -22,9 +22,9 @@ Microsoft Foundry에서 개발한 에이전트를 동일하게 Container Apps에
     
     ```bash
     az acr import \
-      --name finassistrepoannajeong \
-      --source docker.io/annajeong/finassist-chatbot:v1 \
-      --image finassist-chatbot:v1
+      --name finassistrepo<alias> \
+      --source docker.io/seoanson/my-finassist-chatbot:4.0 \
+      --image finassist-chatbot:4.0
     ```
     
 3. 이미지를 가져오고 나면 왼쪽 메뉴에서 `서비스` > `리포지토리`를 클릭합니다.
@@ -60,7 +60,7 @@ Microsoft Foundry에서 개발한 에이전트를 동일하게 Container Apps에
     - 이미지 원본 : Azure Container Registry
     - 레지스트리 : finassistrepo<alias>azureacr.io
     - 이미지 : finassist-chatbot
-    - 이미지 태그 : v1
+    - 이미지 태그 : 4.0
 5. 구성이 완료되면 `다음 : 수신>` 버튼을 클릭합니다.
 6. `수신` 탭을 아래와 같이 구성하고 리소스를 생성합니다.
     
